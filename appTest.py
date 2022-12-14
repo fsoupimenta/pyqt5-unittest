@@ -18,4 +18,4 @@ class AppTest(unittest.TestCase):
     def test_button(self):
         okWidget = self.form.button
         QTest.mouseClick(okWidget, Qt.LeftButton)
-        self.assertEqual(self.form.display.text(), "2")
+        self.assertEqual(self.form.display.text(), "1")
